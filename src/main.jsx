@@ -14,24 +14,24 @@ import ErrorPage from './pages/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/React-Villa",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: '/',
+        path: '/React-Villa',
         element: <Home />,
       },
       {
-        path: 'Properties',
+        path: '/React-Villa/Properties',
         element: <Properties />
       },
       {
-        path: "propertyDetails",
+        path: "/React-Villa/propertyDetails",
         element: <PropertyDetails />
       },
       {
-        path: "contactUs",
+        path: "/React-Villa/contactUs",
         element: <ContactUs />
       }
     ]

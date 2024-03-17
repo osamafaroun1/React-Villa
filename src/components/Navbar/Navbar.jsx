@@ -56,19 +56,19 @@ const Navbar = () => {
       <nav className={`${scroll}  flex justify-between items-center md:px-20 px-5`}>
         <h1 className='uppercase sm:leading-[100px] leading-[60px] text-[18px] sm:text-[28px] font-bold tracking-[2px]'>Villa</h1>
         <div className='OF-link-active hidden md:flex lg:gap-8 md:gap-4 justify-center items-center'>
-          <NavLink to="/"
+          <NavLink to="/React-Villa/"
             className={({ isActive }) =>
               isActive ? "active" : "hover:text-my-orange"
             }>Home</NavLink>
-          <NavLink to="/Properties"
+          <NavLink to="/React-Villa/Properties"
             className={({ isActive }) =>
               isActive ? "active" : "hover:text-my-orange"
             }>Properties</NavLink>
-          <NavLink to="/propertyDetails"
+          <NavLink to="/React-Villa/propertyDetails"
             className={({ isActive }) =>
               isActive ? "active" : "hover:text-my-orange"
             }>Property Details</NavLink>
-          <NavLink to="/contactUs"
+          <NavLink to="/React-Villa/contactUs"
             className={({ isActive }) =>
               isActive ? "active" : "hover:text-my-orange"
             }>Contact Us</NavLink>
@@ -88,19 +88,19 @@ const Navbar = () => {
       {
         collapse &&
         <div className={`${scroll} top-10  flex flex-col items-center py-5 gap-10`}>
-          <NavLink to="/"
+          <NavLink to="/React-Villa/"
             className={({ isActive }) =>
               isActive ? "active" : "hover:text-my-orange"
             }>Home</NavLink>
-          <NavLink to="/Properties"
+          <NavLink to="/React-Villa/Properties"
             className={({ isActive }) =>
               isActive ? "active" : "hover:text-my-orange"
             }>Properties</NavLink>
-          <NavLink to="/propertyDetails"
+          <NavLink to="/React-Villa/propertyDetails"
             className={({ isActive }) =>
               isActive ? "active" : "hover:text-my-orange"
             }>Property Details</NavLink>
-          <NavLink to="/contactUs"
+          <NavLink to="/React-Villa/contactUs"
             className={({ isActive }) =>
               isActive ? "active" : "hover:text-my-orange"
             }>Contact Us</NavLink>
