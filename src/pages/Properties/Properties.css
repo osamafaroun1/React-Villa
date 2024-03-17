@@ -1,0 +1,55 @@
+.OF-pre {
+    background-image: url(../../assets/page-heading-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.OF-pre p {
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.OF-pre span {
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+li a:hover{
+    background-color: #f35525;
+    color: #fff;
+}
+

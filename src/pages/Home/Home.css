@@ -1,0 +1,310 @@
+.OF-featured-style {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.OF-best-style {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    /* margin-top: 20px; */
+    line-height: 56px;
+}
+
+.OFthird {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 25px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: max-content;
+    max-height: 500px;
+}
+
+.OF-Icon-p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.OF-Icon-span {
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+}
+
+.OF-icon_5 {
+    max-width: max-content;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.OF-video-section {
+    background-image:
+        linear-gradient(rgba(15, 16, 16, 0.39),
+            rgba(8, 10, 11, 0.087)),
+        url(../../assets/istockphoto-972700890-2048x2048.jpg);
+    height: 500px;
+    max-width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+
+.OF-above-filter {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(4px);
+}
+
+.OF-video {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -20%;
+    position: relative;
+    z-index: 234;
+}
+
+.OF-video img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.OF-youtube {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-26px, -26px);
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+    color: #f35525;
+    outline: 15px solid rgba(254, 85, 37, 0.5);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.OF-number {
+    margin-top: 300px;
+    position: relative;
+}
+
+.OF-number-card::after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+
+.OF-number-card {
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+    padding: 20px;
+    align-items: center;
+}
+
+.OF-number-card h3 {
+    font-size: 40px;
+    color: #f35525;
+    font-weight: 700;
+}
+
+.OF-number-card p {
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+.OF-button-black {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1e1e1e !important;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 25px;
+    color: #fff;
+}
+
+.OF-button-orange {
+    font-size: 16px;
+    background-color: #f35525;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 25px;
+    color: #fff;
+}
+
+.OF-Total {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.of-total-card-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.of-total-card-style span {
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400
+}
+
+.of-total-card-style p {
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+
+.OF-Total-third h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #1e1e1e;
+    margin-top: 0px;
+}
+
+.OF-Total-third p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+
+.OF-Total-icon-button {
+    width: max-content;
+}
+
+.OF-card-property {
+    max-width: 400px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.OF-card-property-text p {
+    background-color: rgb(251, 217, 207);
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.OF-card-property-text span {
+    font-size: 20px;
+    color: rgb(243, 85, 37);
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.OF-card-property p {
+    font-size: 19px;
+    margin: 25px 0px;
+    font-weight: 700;
+}
+
+.OF-contact-section {
+    background-image: url(../../assets/contact-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height:50vh;
+}
+
+.OF-contactForm {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+    width:280px;
+
+}
+
+.OfNumber {
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: middle;
+    color: #1e1e1e;
+}
+
+.OfNumberSpan {
+    font-size: 15px;
+    color: #aaaaaa;
+    font-weight: 400
+}
+
+@media screen and (max-width : 1300px) {
+    .OFthird {
+        width: 95% !important;
+        padding: 15px 25px;
+        gap: 10px;
+
+    }
+
+    .OF-Total {
+        width: 95%;
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .OF-video-section {
+        height: 350px;
+    }
+
+    .OF-number {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .OF-contact-section {
+        background-image: url(/src/assets/contact-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100vw;
+        height: 80vh
+    }
+}

@@ -1,0 +1,20 @@
+.OS span{
+    background-color: rgb(251, 217, 207);
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.OS h2{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    color: #1e1e1e;
+    font-weight: 700;
+}
